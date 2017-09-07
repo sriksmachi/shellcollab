@@ -10,6 +10,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using NLog.Extensions.Logging;
 using NLog.Web;
+using Contoso.WebAPI.Extensions;
 
 namespace Contoso.WebAPI
 {
@@ -35,7 +36,7 @@ namespace Contoso.WebAPI
             {
                 app.UseDeveloperExceptionPage();
             }
-            loggerFactory.AddNLog();
+            loggerFactory.AddProvider(new MultiLogProvider());
             loggerFactory.ConfigureNLog(this.Configuration["nlog.dit.config"]);
             app.AddNLogWeb();
             app.UseMvc();

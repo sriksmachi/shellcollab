@@ -3,16 +3,26 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging.Abstractions;
+using Microsoft.Extensions.Logging;
 
 namespace Contoso.WebAPI.Controllers
 {
     [Route("api/[controller]")]
     public class ValuesController : Controller
     {
+        private ILogger logger;
+
+        public ValuesController(ILogger<ValuesController> logger)
+        {
+            this.logger = logger;
+        }
+
         // GET api/values
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            logger.LogInformation("Inside values/get", null);
             return new string[] { "value1", "value2" };
         }
 
