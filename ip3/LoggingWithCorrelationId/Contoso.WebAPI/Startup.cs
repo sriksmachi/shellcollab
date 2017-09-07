@@ -37,7 +37,7 @@ namespace Contoso.WebAPI
                 app.UseDeveloperExceptionPage();
             }
             loggerFactory.AddProvider(new MultiLogProvider());
-            loggerFactory.ConfigureNLog(this.Configuration["nlog.dit.config"]);
+            loggerFactory.ConfigureNLog("nlog.dit.config");
             app.AddNLogWeb();
             app.UseMvc();
         }
