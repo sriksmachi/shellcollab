@@ -1,4 +1,3 @@
-C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\bin\Debug\net462\nlog.dit.config
 C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\bin\Debug\net462\Contoso.WebAPI.exe.config
 C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\bin\Debug\net462\Contoso.WebAPI.deps.json
 C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\bin\Debug\net462\Contoso.WebAPI.exe
@@ -316,3 +315,4 @@ C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\obj\
 C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\obj\Debug\net462\Contoso.WebAPI.AssemblyInfo.cs
 C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\obj\Debug\net462\Contoso.WebAPI.exe
 C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\obj\Debug\net462\Contoso.WebAPI.pdb
+C:\code\shellcollab\shellcollab\ip3\LoggingWithCorrelationId\Contoso.WebAPI\bin\Debug\net462\nlog.config

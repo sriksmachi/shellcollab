@@ -23,6 +23,7 @@
     ".NETFramework,Version=v4.6.2": {
       "Contoso.WebAPI/1.0.0": {
         "dependencies": {
+          "Microsoft.ApplicationInsights": "2.4.0",
           "Microsoft.ApplicationInsights.AspNetCore": "2.1.1",
           "Microsoft.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore.Mvc": "2.0.0",
@@ -1910,6 +1911,7 @@
     ".NETFramework,Version=v4.6.2/win7-x86": {
       "Contoso.WebAPI/1.0.0": {
         "dependencies": {
+          "Microsoft.ApplicationInsights": "2.4.0",
           "Microsoft.ApplicationInsights.AspNetCore": "2.1.1",
           "Microsoft.AspNetCore": "2.0.0",
           "Microsoft.AspNetCore.Mvc": "2.0.0",

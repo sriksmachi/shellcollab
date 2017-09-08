@@ -8537,6 +8537,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETFramework,Version=v4.6.2": [
+      "Microsoft.ApplicationInsights >= 2.4.0",
       "Microsoft.ApplicationInsights.AspNetCore >= 2.1.1",
       "Microsoft.AspNetCore >= 2.0.0",
       "Microsoft.AspNetCore.Mvc >= 2.0.0",
@@ -8592,6 +8593,10 @@
           "Microsoft.AspNetCore": {
             "target": "Package",
             "version": "2.0.0"
+          },
+          "Microsoft.ApplicationInsights": {
+            "target": "Package",
+            "version": "2.4.0"
           },
           "NLog.Web.AspNetCore": {
             "target": "Package",

@@ -1,0 +1,32 @@
+2017-09-09 01:37:24.5428|0|||Contoso.WebAPI.Controllers.ValuesController|INFO||Inside values/get 
+2017-09-09 01:37:32.5034|5001|||Contoso.WebAPI.Extensions.ExceptionFilter|FATAL||Unhandled exception captured in global filter - 4f6b5c69-d99a-4d76-bc93-994c6a40f7e8 Invalid Argument
+2017-09-09 01:43:55.5944|0|||Contoso.WebAPI.Controllers.ValuesController|INFO||Inside values/get 
+2017-09-09 01:44:03.4992|5001|||Contoso.WebAPI.Extensions.ExceptionFilter|FATAL||Unhandled exception captured in global filter - 2382804e-eae9-4d0a-a231-9cc736dbd498 Invalid Argument
+2017-09-09 01:51:46.2108|0|||Contoso.WebAPI.Controllers.ValuesController|INFO||Inside values/get 
+2017-09-09 01:51:52.6166|5001|||Contoso.WebAPI.Extensions.ExceptionFilter|FATAL||Unhandled exception captured in global filter - 393a288f-f321-4083-a852-ab3251595b63 Invalid Argument
+2017-09-09 01:53:07.0073|0|||Contoso.WebAPI.Controllers.ValuesController|INFO||Inside values/get |ObjectMethodExecutor.Execute => <no type>.lambda_method => ValuesController.Get
+2017-09-09 01:53:12.5776|5001|||Contoso.WebAPI.Extensions.ExceptionFilter|FATAL||Unhandled exception captured in global filter - a407d8b4-dac0-4c5b-b480-44d0e03b6b18 Invalid Argument|<InvokeNextResourceFilter>d__22.MoveNext => ResourceInvoker.Next => ExceptionFilter.OnException
+2017-09-09 01:54:59.1625|0|||Contoso.WebAPI.Controllers.ValuesController|INFO||Inside values/get |ObjectMethodExecutor.ExecuteString<no type>.lambda_methodStringValuesController.Get
+2017-09-09 01:55:05.1241|5001|||Contoso.WebAPI.Extensions.ExceptionFilter|FATAL||Unhandled exception captured in global filter - 4d40b515-4276-4434-ad54-72b7d93e903d Invalid Argument|<InvokeNextResourceFilter>d__22.MoveNextStringResourceInvoker.NextStringExceptionFilter.OnException
+2017-09-09 01:57:17.0923|0|||Contoso.WebAPI.Controllers.ValuesController|INFO||Inside values/get |InvokeNextActionFilterAsync at offset 106 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 67 in file:line:column <filename unknown>:0:0
+MoveNext at offset 123 in file:line:column <filename unknown>:0:0
+Next at offset 814 in file:line:column <filename unknown>:0:0
+InvokeActionMethodAsync at offset 106 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 67 in file:line:column <filename unknown>:0:0
+MoveNext at offset 1690 in file:line:column <filename unknown>:0:0
+Execute at offset 15 in file:line:column <filename unknown>:0:0
+lambda_method at offset 62 in file:line:column <filename unknown>:0:0
+Get at offset 74 in file:line:column <filename unknown>:0:0
+
+2017-09-09 01:57:23.7789|5001|||Contoso.WebAPI.Extensions.ExceptionFilter|FATAL||Unhandled exception captured in global filter - 1938b999-5a94-4dc1-ac83-906cf0248e00 Invalid Argument|MoveNext at offset 193 in file:line:column <filename unknown>:0:0
+InvokeFilterPipelineAsync at offset 106 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 67 in file:line:column <filename unknown>:0:0
+MoveNext at offset 94 in file:line:column <filename unknown>:0:0
+Next at offset 1065 in file:line:column <filename unknown>:0:0
+InvokeNextResourceFilter at offset 106 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 67 in file:line:column <filename unknown>:0:0
+MoveNext at offset 123 in file:line:column <filename unknown>:0:0
+Next at offset 1792 in file:line:column <filename unknown>:0:0
+OnException at offset 320 in file:line:column <filename unknown>:0:0
+

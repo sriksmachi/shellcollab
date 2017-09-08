@@ -30,6 +30,10 @@ namespace Contoso.WebAPI.Controllers
         [HttpGet("{id}")]
         public string Get(int id)
         {
+            if(id == 0)
+            {
+                throw new ArgumentException("Invalid Argument");
+            }
             return "value";
         }
 
