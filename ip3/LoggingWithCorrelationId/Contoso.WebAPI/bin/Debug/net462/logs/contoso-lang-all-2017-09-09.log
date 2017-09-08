@@ -70,3 +70,15 @@
 2017-09-09 01:57:23.8594|1|Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor|INFO||Executing ContentResult with HTTP Response ContentType of application/json 
 2017-09-09 01:57:23.8729|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO||Executed action Contoso.WebAPI.Controllers.ValuesController.Get (Contoso.WebAPI) in 1922.7521ms 
 2017-09-09 01:57:23.8849|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO||Request finished in 2043.1443ms 500 application/json 
+2017-09-09 02:01:41.3222|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO||Request starting HTTP/1.1 GET http://localhost:52891/api/values   
+2017-09-09 02:01:41.7528|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO||Executing action method Contoso.WebAPI.Controllers.ValuesController.Get (Contoso.WebAPI) with arguments ((null)) - ModelState is Valid 
+2017-09-09 02:01:41.8069|1|Microsoft.AspNetCore.Mvc.Internal.ObjectResultExecutor|INFO||Executing ObjectResult, writing value Microsoft.AspNetCore.Mvc.ControllerContext. 
+2017-09-09 02:01:41.9709|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO||Executed action Contoso.WebAPI.Controllers.ValuesController.Get (Contoso.WebAPI) in 253.8259ms 
+2017-09-09 02:01:41.9929|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO||Request finished in 692.7939ms 200 application/json; charset=utf-8 
+2017-09-09 02:01:42.0779|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO||Request starting HTTP/1.1 GET http://localhost:52891/favicon.ico   
+2017-09-09 02:01:42.0999|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO||Request finished in 21.9276ms 404  
+2017-09-09 02:01:51.9644|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO||Request starting HTTP/1.1 GET http://localhost:52891/api/values/0   
+2017-09-09 02:01:52.1163|1|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO||Executing action method Contoso.WebAPI.Controllers.ValuesController.Get (Contoso.WebAPI) with arguments (0) - ModelState is Valid 
+2017-09-09 02:01:54.7972|1|Microsoft.AspNetCore.Mvc.Internal.ContentResultExecutor|INFO||Executing ContentResult with HTTP Response ContentType of application/json 
+2017-09-09 02:01:54.8092|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO||Executed action Contoso.WebAPI.Controllers.ValuesController.Get (Contoso.WebAPI) in 2745.0012ms 
+2017-09-09 02:01:54.8222|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO||Request finished in 2857.7285ms 500 application/json 
