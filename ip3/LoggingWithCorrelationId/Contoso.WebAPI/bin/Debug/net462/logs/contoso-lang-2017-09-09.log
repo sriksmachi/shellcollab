@@ -52,3 +52,25 @@ MoveNext at offset 123 in file:line:column <filename unknown>:0:0
 Next at offset 1792 in file:line:column <filename unknown>:0:0
 OnException at offset 320 in file:line:column <filename unknown>:0:0
 
+2017-09-09 02:19:38.8916|0|||Contoso.WebAPI.Controllers.ValuesController|INFO||Inside values/get |InvokeNextActionFilterAsync at offset 106 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 67 in file:line:column <filename unknown>:0:0
+MoveNext at offset 123 in file:line:column <filename unknown>:0:0
+Next at offset 814 in file:line:column <filename unknown>:0:0
+InvokeActionMethodAsync at offset 106 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 67 in file:line:column <filename unknown>:0:0
+MoveNext at offset 1690 in file:line:column <filename unknown>:0:0
+Execute at offset 15 in file:line:column <filename unknown>:0:0
+lambda_method at offset 62 in file:line:column <filename unknown>:0:0
+Get at offset 74 in file:line:column <filename unknown>:0:0
+
+2017-09-09 02:19:46.7261|5001|||Contoso.WebAPI.Extensions.ExceptionFilter|FATAL||Unhandled exception captured in global filter - d18bff91-2f07-4c5a-9aec-6d9460565b28 Invalid Argument|MoveNext at offset 193 in file:line:column <filename unknown>:0:0
+InvokeFilterPipelineAsync at offset 106 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 67 in file:line:column <filename unknown>:0:0
+MoveNext at offset 94 in file:line:column <filename unknown>:0:0
+Next at offset 1065 in file:line:column <filename unknown>:0:0
+InvokeNextResourceFilter at offset 106 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 67 in file:line:column <filename unknown>:0:0
+MoveNext at offset 123 in file:line:column <filename unknown>:0:0
+Next at offset 1792 in file:line:column <filename unknown>:0:0
+OnException at offset 320 in file:line:column <filename unknown>:0:0
+
