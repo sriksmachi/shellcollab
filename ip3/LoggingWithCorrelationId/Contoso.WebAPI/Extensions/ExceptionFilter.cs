@@ -48,7 +48,7 @@
             TelemetryConfiguration.Active.TelemetryInitializers.OfType<OperationIdTelemetryInitializer>().Single().Initialize(telemetry);
             var correlationId = telemetry.Context.Properties[Constants.CorrelationId];
 
-            this.loggerException.LogCritical(5001, context.Exception, $"Unhandled exception captured in global filter - {correlationId}");
+            this.loggerException.LogCritical(5001, context.Exception, $"Unhandled exception captured in global filter: Correlation Id - {correlationId}");
 
             ExceptionResponse currentException = new ExceptionResponse();
             currentException.Exception = context.Exception;
